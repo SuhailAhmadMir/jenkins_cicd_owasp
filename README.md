@@ -1,6 +1,21 @@
 # Jenkins CICD With Dynamic Application Security Testing (DAST) with OWASP ZAP
 
-This document provides an overview of the Jenkins Pipeline used for Continuous Integration and Continuous Deployment (CI/CD) in your project.
+
+## Overview
+
+OWASP ZAP (Zed Attack Proxy) is one of the options we have as part of the DAST (Dynamic Application Security Testing) security techniques. It identifies vulnerabilities in web applications, including compromised authentication, exposure of sensitive data, security misconfigurations, SQL injection, cross-site scripting (XSS), insecure deserialization, and components with known vulnerabilities.
+
+## Requirements
+
+To use this Jenkins Pipeline effectively, you need to meet the following requirements:
+
+- **Jenkins Installation:** Ensure that Jenkins is properly installed and configured on your system.
+
+- **Docker Installation:** Docker should be installed on the Jenkins machine. The pipeline utilizes Docker containers for various stages of the process.
+
+  - **Docker Image:** You'll need the following Docker image installed:
+
+    - **Image Name:** owasp/zap2docker-stable
 
 ## Stages
 
