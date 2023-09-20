@@ -15,7 +15,7 @@ To use this Jenkins Pipeline effectively, you need to meet the following require
 
   - **Docker Image:** You'll need the following Docker image installed:
 
-    - **Image Name:** owasp/zap2docker-stable
+    - **Use this cmd:** docker pull owasp/zap2docker-live
 
 ## Stages
 
